@@ -3,52 +3,36 @@
     height: 100px;
     display: flex;
     background-color: #ffcc32!important;
-    margin: 0;
+    margin: 0px;
+    padding: 0px 0;
     
 }
 .header-content{
     width: 80%;
     height: fit-content;
     margin: auto;
+    padding: 20px 0;
     max-width: 1040px;
-    display: flex;
-
-    
+    display: flex;   
 }
+
 .header-menu{
-   
-    
     width: 50%;
-  text-align: center;
+   font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
   font-size: 16px;
   color: #662d91;
-  
+  text-decoration-line: none;
    
 }
-.header-menu ul{
+.header-menu ul li{
     list-style-type: none;
     text-decoration-line: none;
+    padding: 8px;
+    font-weight: 600;
 }
-.home{
-    text-decoration-line: none;
-}
-.header-menu li{
-    
-    width: 100px;
-    margin: 0px 10px;
-    
-    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #550087!important;
-}
-.journey{
-    white-space: nowrap;
-}
+
 .header-menu ul{
     display: flex;
-    list-style-type: none;
-    text-decoration: none;
 }
 .logo-h{
     width: 50%;
@@ -68,56 +52,61 @@
     padding: 27px 0;
     font-size: 21px;
     color: #662d91;
-}
-.text1{
-    height: 40px;
-    width: 100%;
-    line-height: 23.4px;
-    letter-spacing: normal;
-    font-weight: 500;
-    -webkit-text-size-adjust: 100%;
-    font-family: Quicksand, Helvetica, Arial, Lucida, sans-serif;
-    text-align: center;
-    margin-top: 65px;
-}
-.container1{
+}.container1{
     width: 100%;
     height: auto;
+    text-align: center;
+    font-weight: 700;
+    font-family: Quicksand, Helvetica, Arial, Lucida, sans-serif;
+    color: #662d91;
+    margin-top: 0px;
+   
+  
+    
     
 }
+ .text{
+    
+    width: 100%;
+    height: 94px;
+    line-height: 23.4px;
+    letter-spacing: normal;
+   
+    text-align: center;
+    margin-top: 65px;
+} 
+.image{
+    display: flex;
+    
+}
+
 .product{
-    width: 50%;
-    height: auto;
-     float: left;
+    width: 600px;
+    height: 532px;
+    
 } 
 .model{
     width: 50%;
     height: auto;
-   float: left;
+   
 }
 .productimg{
     width: 510px;
     height: 432px;
-    margin-left: 220px;
+   
 }
 .modelimg{
     width: 510px;
     height: 464px;
 }
-.images{
-    width: 100%;
-    align-items: center;
-    
-    margin: 46px 0
-  
-}
+
 .container2{
     font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
     font-size: 18px;
     line-height: 1.3em;
     text-align: center;
     color: #662d91;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 .container3{
     width: 100%;
