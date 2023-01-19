@@ -56,14 +56,14 @@
     width: 100%;
     height: auto;
     text-align: center;
+    align-items: center;
     font-weight: 700;
     font-family: Quicksand, Helvetica, Arial, Lucida, sans-serif;
     color: #662d91;
-    margin-top: 0px;
+    margin-top: 0px;    
+}
+.text h1{
    
-  
-    
-    
 }
  .text{
     
@@ -71,18 +71,19 @@
     height: 94px;
     line-height: 23.4px;
     letter-spacing: normal;
-   
+   font-weight: 300;
     text-align: center;
     margin-top: 65px;
 } 
 .image{
     display: flex;
-    
+  
+    padding: 0 116px;
 }
 
 .product{
     width: 600px;
-    height: 532px;
+    height: auto;
     
 } 
 .model{
@@ -106,18 +107,19 @@
     line-height: 1.3em;
     text-align: center;
     color: #662d91;
-    margin-bottom: 0px;
+    width: 100%;
+    height: fit-content;
 }
 .container3{
     width: 100%;
-    height:  1100px;
+    height:  fit-content;
     font-size: 18px;
-    vertical-align: baseline;
     font-weight: 700;
     line-height: 1em;
     background: #ffcc32;
     text-align: center;
     color: #662d91;
+    padding: 54px 0;
     
 }
 /* .sub-container3{
@@ -127,91 +129,130 @@
 .header1{
     width: 70%;
     height: auto;
-    margin: 140px;
+   
+    padding: 70px 124px;
 }
 .main-content1{
     width: 80%; 
     height: auto;
     /* max-width: 1040px; */
     text-align: center;
-    align-items: center;
-    margin-left: 144px
+    margin-left: 144px;
+    /* display: flex; */
+    font-family: 'Quicksand',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+   
+}
+.sub-content1{
+    width: 100%;
+    display: flex;
 }
 .sub1{
     width: 50%;
     height: fit-content;
-    font-size: 19px;
-    text-align: left;
-    float: left;
+    font-size: 20px;
+    margin-right: 5.5%;
+    display: flex;
+    
+   
     
 }
 .textt{
-    width: 30%;
+    width: 50%;
     height: fit-content;
-    float: left;
-    
-   
+    text-align: left;
+    font-weight: 200;
+    margin-right: 5.5%;
+}
+.textt h3{
+    margin-bottom: 13.174%;
 }
 .ice-cream-icon{
-  
-    float: left;
+  width: 50%;
+  align-items: center;
+   
 }
 .sub2{
     width: 50%;
     height: fit-content;
     font-size: 19px;
     text-align: left;
-    float: left;
+   display: flex;
+   margin-right: 5.5%;
 }
 .text2{
-    width:30%;
+    width: 50%;
     height: fit-content;
-    float: left;
+    margin-right: 5.5%;
+    
+}
+.text2 h3{
+    margin-bottom: 13.174%;
 }.health-icon{
-float: left;
+    width: 50%;
+    align-items: center;
+}
+.sub-content2{
+    width: 100%;
+    display: flex;
+    margin-right: 5.5%;
 }
 .sub3{
     width: 50%;
     height: fit-content;
     font-size: 19px;
     text-align: left;
+    display: flex;
+    margin-right: 5.5%;
     
 }
+.text3 h3{
+    margin-bottom: 13.174%;
+}
 .text3{
-    width: 30%;
+    width: 50%;
     height: fit-content;
-    float: left;}
+    margin-right: 5.5%;
+}
 .natural-icon{
-    float: left;
+    width: 50%;
+    align-items: center;
 }
 .sub4{
     width: 50%;
     height: fit-content;
     font-size: 19px;
     text-align: left;
-    float: left;
-    margin-left: 170px
+   display: flex;
+   margin-right: 5.5%;
+    
     
 }
+.text4 h3{
+    margin-bottom: 13.174%;
+}
 .text4{
-    width: 30%;
+    width: 50%;
     height: fit-content;
-    float: left;
+    margin-right: 5.5%;
+    
     
    
 }
 .sustainable-icon{
   
-    float: left;
+    width: 50%;
+    align-items: center;
 }
 .container4{
     width: 100%;
     height: fit-content;
     background: #fff;
-    margin: 110px 0;
+    margin: 0px 0;
     align-items: center;
     text-align: left;
-    float: left;
+    padding: 54px 0;
+   
 }
 .sub-container4{
     width: 80%; 
@@ -225,42 +266,48 @@ float: left;
 
 }
 .inside-text4{
-    padding: 27px 0;
+    /* padding: 27px 0; */
 }
 .paragraph4{
     padding: 27px 0;
 }
 .tubes{
-    width: 80%;
-    height: 80px;
+    width: 1079px;
+    height: 60px;
     background: #662d91;
     text-align: left;
     color: #fff;
     font-weight: bold;
+    font-size: 18px;
     margin: 17px 0;
+    border: 1px solid;
 
 }.cones{
-    width: 80%;
-    height: 80px;
+    width: 1079px;
+    height: 60px;
     background: #662d91;
     text-align: left;
     color: #fff;
+    font-size: 18px;
     font-weight: bold;
+    border: 1px solid;
     /* margin: 28px 0; */
 }.bars{
-    width: 80%;
-    height: 80px;
+    width: 1079px;
+    height: 60px;
     background: #662d91;
     text-align: left;
     color: #fff;
+    font-size: 18px;
     font-weight: bold;
+    border: 1px solid;
     margin: 17px 0;
 }
 .container5{
     width: 100%;
-    height: 600px;
+    height: 550px;
     background: #ffcc32;
-    float: left;
+    
     text-align: left;
     
    
@@ -270,7 +317,7 @@ float: left;
     padding-top: 88px;
 }
 .sub-container5{
-    width: 61%;
+    width: 80%;
     height: fit-content;
     text-align: left;
     margin-left: 165px;
@@ -280,43 +327,44 @@ float: left;
     line-height: 1.7em;
     font-size: 100%; 
     color: #662d91;
-    padding: 45px 0;
+    padding: 15px 0;
+    display: flex;
 
 }
 .vedio{
     width: 50%;
-    float: left;
-    margin-right: 101px;
+    /* float: left; */
+    
     
 }
-text-5{
+.text-5{
     width: 50%;
-    float: left;
-    margin-left: 79px 
-    /* padding-top: 70px;
-    padding-bottom: 33px;
-     */
+    padding: 0px 62px
 }
  .container6{
     width: 100%;
     height: fit-content;
-    ; }
+    padding: 0px 0;
+   
+    
+}
 
-sub-container6{
-    width: 70%;
+.sub-container6{
+    width: 80%;
     height: fit-content;
-    margin-left: 300px;
+    padding: 30px 0;
+    margin: 30px 155px;
 } 
 .sub6{
-    float: left;
+    
     width: 1079px;
    
     text-align: left;
-    margin-left: 200px;
+    
 }
 .details{
     text-align: left;
-    margin-left: 200px;
+    
 
 }
 .name{
@@ -342,10 +390,11 @@ sub-container6{
     
 }
 .phone{
-    width: 522px;
+    width: 512px;
     height: 51.2px;
     background: #eee;
-    margin: 10px 27px;
+    margin: 10px 15px;
+    padding-left: 5px;
     border-width: 0;
     border-radius: 0;
     color: #999;
@@ -365,20 +414,21 @@ sub-container6{
 }
 .group{
     width: 30%;
-    margin-left: 59%;
+    margin-left: 78%;
     padding: 10px;
+    display: flex;
 }
 .question{
 width: 50px;
 height: auto;
-float: left;
+
 }
 .ans{
     width: 50px;
     height: 40px;
     background: #eee;
     border: 0;
-    float: left;
+    
    
 }
 .submit{
@@ -386,8 +436,9 @@ float: left;
     height: 50px;
     background: none;
     margin-left: 18px;
+    border: 2px solid;
     color: aqua;
-  border-color: aqua;
+  border-color:#2ea3f2;
     font-size: 15px;
     
 }
@@ -395,8 +446,8 @@ float: left;
     width: 100%;
     height: fit-content;
     color: #662d91;
-    padding-top: 70px;
-    padding-bottom: 25px;
+    
+    padding-bottom: 50px; 
     text-align: center;
     
   
@@ -404,13 +455,14 @@ float: left;
 }
 .container8{
     width: 100%;
-    height: 350px;
+    height: fit-content;
     background: #662d91;
     color: white;
     text-align: left;
+    display: flex;
 }
 .sub8{
-    width: 70%;
+    width: 50%;
     height: 128px;
     padding: 101px;
     padding-left: 176px;
@@ -420,6 +472,17 @@ float: left;
     line-height: 1.8em;
     font-weight: 100;
     
+}
+.sub8 h3{
+    padding: 10px 0;
+}
+.end-one{
+    width: 50%;
+    padding: 110px;
+}
+.end-one li{
+    padding: 10px 0;
+    list-style: none;
 }
 body{
     margin: 0;
